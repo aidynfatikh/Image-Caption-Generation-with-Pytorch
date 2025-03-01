@@ -31,3 +31,20 @@ Here is an example of the caption from the model. (This is a random dog image fo
 ![image](https://github.com/user-attachments/assets/d1f2dc0b-b2c1-4cac-8a0a-1c5b8a31dd2b)
 
 However the model, due its architecture, can not describe very complex scenes properly and usually mentions only small parts of the image. (Which is still awesome)
+
+# How to use
+
+In order to train the model you can configure the hyperparameters in the train.py and then run the following command in the folder with the file:
+
+````
+python train.py
+````
+
+Once you have a trained model you can deploy it using streamlit. Make sure you check the model that is being loaded in the app.py file.
+
+````
+streamlit run app.py
+
+````
+
+
