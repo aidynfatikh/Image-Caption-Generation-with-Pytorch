@@ -29,7 +29,7 @@ encoder = models.EncoderCNN(n_embd).to(device)
 decoder = models.DecoderRNN(n_embd, hidden_size, vocab_size, num_layers).to(device)
 
 if True: # MAKE SURE YOU HAVE A TRAINED MODEL IN "checkpoints"
-    epoch = 1 # WHICH EPOCH TO LOAD
+    epoch = 10 # WHICH EPOCH TO LOAD
     encoder.load_state_dict(torch.load(f"checkpoints/encoder_{epoch}.pth", weights_only=False))
     decoder.load_state_dict(torch.load(f"checkpoints/decoder_{epoch}.pth", weights_only=False))
 
