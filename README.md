@@ -6,7 +6,7 @@ Image captioning using CNN feature extractor and a RNN decoder.
 
 # Overview
 
-This project is the implementation of the "Show and Tell: A Neural Image Caption Generator" paper which is availbale by the link:
+This project is the implementation of the "Show and Tell: A Neural Image Caption Generator" paper which is available by the link:
 https://arxiv.org/abs/1411.4555
 
 The model is trained with the Flickr8k dataset which consists of ~40k image-caption pairs.
