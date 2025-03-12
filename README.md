@@ -1,4 +1,4 @@
-# Image-Caption-Generation-with-Pytorch
+# Image Captioning With Pytorch
 
 ![image](https://github.com/user-attachments/assets/c5275789-0bbe-4896-804b-26807d5e6870)
 
